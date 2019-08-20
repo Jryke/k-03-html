@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Sign up form</title>
+	</head>
+	<body>
+		<form id="signup-form" action="forms.html" method="post">
+			<label for="name-input">Name:</label>
+			<input type="text" id="name-input" name="name-input" placeholder="Type name here...">
+			<br>
+			<label for="email-input">Email:</label>
+			<input type="email" id="email-input "name="email-input" placeholder="Type email here...">
+			<br>
+			<label for="password-input">Password:</label>
+			<input type="password" id="password-input" name="password-input" placeholder="Type password here...">
+			<br>
+			<label for="newsletter-radio">Agree to receive newsletters</label>
+			<br>
+			<input type="radio" name="newsletter-radio" id="newsletter-radio">
+			<button type="submit" form="signup-form" name="signup-button">Signup</button>
+			<button type="button" name="cancel-button" onClick="window.location.href='forms.html'">cancel</button>
+		</form>
+	</body>
+</html>
